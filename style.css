@@ -1,0 +1,30 @@
+.input-style {
+    background-color: #334155; /* slate-700 */
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    outline: none;
+    width: 100%;
+    color: white;
+    border: 1px solid #475569;
+}
+
+.input-style:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+/* Estados de tarjetas de semanas */
+.card-mora {
+    border-left: 5px solid #ef4444;
+    background: rgba(127, 29, 29, 0.4);
+}
+
+.card-pagado {
+    border-left: 5px solid #22c55e;
+    background: rgba(20, 83, 45, 0.4);
+}
+
+.card-pendiente {
+    border-left: 5px solid #3b82f6;
+    background: rgba(30, 41, 59, 0.8);
+}
